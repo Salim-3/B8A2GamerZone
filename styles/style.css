@@ -154,7 +154,8 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.card-section p{
+
+.card-section p {
     margin-top: -30px;
 }
 
@@ -165,4 +166,36 @@ body {
     border-radius: 16px;
     gap: 15px;
     margin-left: 40px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    margin-top: 150px;
+}
+
+.game-content {
+    text-align: right;
+    margin-top: 500px;
+}
+
+.game-icon {
+    width: 534.833px;
+    height: 550px;
+    border-radius: 8px;
+}
+
+.game-content p {
+    margin-top: -30px;
+}
+
+.game-container-pic {
+    width: 318.5px;
+    height: 365.083px;
+    margin-top: -270px;
+    margin-left: -100px;
+    border-radius: 8px;
+    border: 10px solid #FFF;
 }
