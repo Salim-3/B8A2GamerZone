@@ -67,7 +67,7 @@ body {
 
 .banner-container {
     display: flex;
-    width: 1520px;
+    width: 1420px;
     height: 650px;
     justify-content: space-between;
     background-image: url('../images/Group\ 14.png');
@@ -91,7 +91,7 @@ body {
     padding-top: 100px;
 }
 
-.primary-color {
+.title-color {
     font-size: 95px;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -129,14 +129,40 @@ body {
     text-transform: uppercase;
     border: none;
     border-radius: 48px;
-background: #4EC5F7;
-padding: 20px 30px;
-margin-left: 10px;
+    background: #4EC5F7;
+    padding: 20px 30px;
+    margin-left: 10px;
 }
 
 .img-container {
     width: 950px;
     height: 400px;
     margin-left: 200px;
+    padding-right: 20px;
 
+}
+
+.card-section {
+    text-align: center;
+}
+
+.primary-color {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card-section p{
+    margin-top: -30px;
+}
+
+.card-section-img {
+    display: flex;
+    width: 342px;
+    height: 400px;
+    border-radius: 16px;
+    gap: 15px;
+    margin-left: 40px;
 }
