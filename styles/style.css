@@ -6,9 +6,12 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+/*nav style */
+
 .nav-container {
-    width: 1520px;
+    width: 1013px;
     height: 100px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
@@ -65,10 +68,13 @@ body {
     height: 35px;
 }
 
+/* banner style*/
+
 .banner-container {
     display: flex;
-    width: 1420px;
+    width: 1013px;
     height: 650px;
+    width: 100%;
     justify-content: space-between;
     background-image: url('../images/Group\ 14.png');
     background-repeat: no-repeat;
@@ -142,8 +148,11 @@ body {
 
 }
 
+/* card style */
+
 .card-section {
     text-align: center;
+    width: 1013;
 }
 
 .primary-color {
@@ -163,22 +172,38 @@ body {
     display: flex;
     width: 342px;
     height: 400px;
+    position: relative;
+
     border-radius: 16px;
     gap: 15px;
-    margin-left: 40px;
+    margin-left: 140px;
 }
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    /* Customize the play icon's size, color, etc. */
+ }
+.card-section-img:hover .play-icon {
+    opacity: 1;
+    background-color: #FF42A5;
+  }
+
+/* game style */
 
 .game-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 100px;
+    gap: 10px;
     margin-top: 150px;
+    margin-bottom: 200px;
 }
 
 .game-content {
     text-align: right;
-    margin-top: 500px;
 }
 
 .game-icon {
@@ -198,4 +223,82 @@ body {
     margin-left: -100px;
     border-radius: 8px;
     border: 10px solid #FFF;
+}
+
+.pink-color-container {
+    display: flex;
+    width: 1013px;
+    width: 100%;
+    height: 821px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    margin-top: 300px;
+}
+
+.pink-color-text {
+    text-align: center;
+    color: #FFF;
+    text-align: left;
+    padding-top: 200px;
+    padding-left: 100px;
+
+}
+
+.pink-color-container h3 {
+    margin-bottom: -10px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
+}
+
+.color-content {
+    display: flex;
+}
+
+.color-content ul {
+    list-style: none;
+    margin-left: -40px;
+    padding-right: 20px;
+}
+
+.pink-color-text button {
+    border-radius: 48px;
+    background: #FFF;
+    padding: 21px 40px;
+    border: none;
+}
+
+/* footer style*/
+
+.footer-content{
+    color: #FFF;
+    width: 1013px;
+    width: 100%;
+    height: 421px;
+   background-color: #0B0223;
+   margin-top: 100px;
+}
+.footer-container{
+    width: 100%;
+    text-align: center;
+}
+.footer-support{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    gap: 60px;
+
+}
+.footer-support ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+
+}
+.footer-content p{
+    padding-top: 100px;
+
+ 
 }
